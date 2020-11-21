@@ -1,0 +1,85 @@
+一、基本的功能介绍
+	1.repository  仓库 // 你的项目
+	多个开源项目就有多个仓库，每一个项目对应一个仓库
+	2.star 收藏  // 个人中心直接有自己的项目
+	3.fork 复制克隆项目//  forked from **test
+	4.pull request   想要同步的话 就发起请求  等待主仓库检查  合并到原仓库
+	5.watch  别人发布一些动态，你可以看到，仓库有哪些更新可以接受到通知
+	6.issue 事务卡片 发现代码bug,但是目前没有成型的文件
+
+二、常用的功能介绍
+	1.github 进入github主页，左侧是动态，右侧显示所有的git库
+	2.仓库主页
+	主要显示项目的信息，项目代码，版本，收藏等
+	3.个人主页
+	自己的开源项目
+	4.fork
+	会在自己的仓库里面克隆一个一样的别人的仓库
+	5.有开源项目
+	 	0.fork别人的项目->pull request 直接修正代码->等待原仓库主人审核项目更改
+	 	1.通过新建issue的方式，想法 建议什么的
+
+三、git软件使用
+	1.working directoty 工作区：添加、编辑、修改文件等动作
+	2.git仓库：成为一个新的版本
+	3.暂存区：暂存已经修改好的版本，之后统一提交到git仓库里面
+
+	1-->3-->2
+
+	git status
+	git add hello.php  1-->3
+	git add test.php
+	git commit-m"提交描述"
+	hello.php
+	test.php
+
+四、找github上面的开源项目
+	in:namne spring boot stars:>1500 forks:>100
+	in:readme spring boot stars:>1500
+	in:description spring boot language:java pushed:>2019-09-03
+ 	in:description 爬虫 language:python stars:>1500 pushed:>2019-09-03
+五、
+	数据结构和算法：大话数据结构，剑指offer，刷题。
+	计算机网络：TCP/IP详解
+	操作系统：深入理解操作系统
+	设计模式：大话设计模式
+
+
+1.查找github文件时快捷键为  t
+2.issue 发现dubug,并交流关闭issue
+
+
+
+
+
+
+
+
+
+1.	.h文件做的是类的声明，包括类成员的定义
+函数和变量声明，结构体定义，宏定义
+2.	.cpp文件时类成员函数的具体实现，变量定义等  首行一般包括#inlcude .h
+3.	在main.cpp中去实现
+
+
+
+3.	h的作用时当多个cpp文件需要同一份变量，同一份类型，宏定义之类的话，就把它放在.h文件去声明，然后在.cpp文件去调用就行
+4.	我们把类的接口放在.h文件中，将具体类的实现放在.cpp中，用来保护我们的代码
+5.	在.h文件中声明这个函数，
+
+
+
+
+
+
+1.简单的 类和对象
+2.   .dll 库   .h和.c 
+3.把类实现一下，
+
+实现：c++---空的项目----source 入口主程序--
+int *p2=new int; 
+*p2=10;
+delete p2, 释放空间 
+
+
+
